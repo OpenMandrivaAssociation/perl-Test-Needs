@@ -3,10 +3,10 @@
 Summary:	Perl module to skip tests when modules aren't available
 Name:		perl-%{modname}
 Version:	0.002005
-Release:	2
+Release:	3
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{modname}/
+Url:		http://metacpan.org/pod/Test::Needs
 Source0:	http://search.cpan.org/CPAN/authors/id/H/HA/HAARG/Test-Needs-%{version}.tar.gz
 BuildArch:	noarch
 BuildRequires:	perl(Test::More) >= 1.1.9
