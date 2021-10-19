@@ -17,14 +17,14 @@ BuildRequires:	perl(Test2::Event) >= 1.302.30
 Perl module to skip tests when modules aren't available
 
 %prep
-%setup -qn %{modname}-%{version}
+%autosetup -p1 -n %{modname}-%{version}
 
 %build
-%__perl Makefile.PL INSTALLDIRS=vendor
-%make
+perl Makefile.PL INSTALLDIRS=vendor
+%make_build
 
 %install
-%makeinstall_std
+%make_install
 
 %check
 # FIXME determine why tests fail on ARM32
@@ -34,4 +34,4 @@ make test
 %files
 %doc Changes
 %{perl_vendorlib}/Test/Needs.pm
-%{_mandir}/man3/*
+%doc %{_mandir}/man3/*
