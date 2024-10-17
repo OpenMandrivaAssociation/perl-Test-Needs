@@ -6,7 +6,7 @@ Version:	0.002010
 Release:	1
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
-Url:		http://metacpan.org/pod/Test::Needs
+Url:		https://metacpan.org/pod/Test::Needs
 Source0:	http://search.cpan.org/CPAN/authors/id/H/HA/HAARG/Test-Needs-%{version}.tar.gz
 BuildArch:	noarch
 BuildRequires:	perl(Test::More) >= 1.1.9
