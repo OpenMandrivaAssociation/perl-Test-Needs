@@ -3,7 +3,7 @@
 Summary:	Perl module to skip tests when modules aren't available
 Name:		perl-%{modname}
 Version:	0.002010
-Release:	1
+Release:	2
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		https://metacpan.org/pod/Test::Needs
