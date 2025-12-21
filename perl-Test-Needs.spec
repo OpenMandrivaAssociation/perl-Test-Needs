@@ -9,6 +9,7 @@ Group:		Development/Perl
 Url:		https://metacpan.org/pod/Test::Needs
 Source0:	http://search.cpan.org/CPAN/authors/id/H/HA/HAARG/Test-Needs-%{version}.tar.gz
 BuildArch:	noarch
+BuildRequires:	make
 BuildRequires:	perl(Test::More) >= 1.1.9
 BuildRequires:	perl(ExtUtils::MakeMaker) >= 7.40.0
 BuildRequires:	perl(Test2::Event) >= 1.302.30
